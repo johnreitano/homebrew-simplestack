@@ -17,7 +17,7 @@ class Simplestack < Formula
     # system "./configure", *std_configure_args, "--disable-silent-rules"
     # # system "cmake", ".", *std_cmake_args
     bin.install "simplestack"
-    prefix.install Dir["output/*"]
+    prefix.install  Dir["*"] - ["simplestack", "bundle", "foo", "notes.md", "tmp"]
   end
 
   # test do
