@@ -5,7 +5,7 @@ class Simplestack < Formula
   desc "A command-line tool to generate an application following the SimpleStack pattern"
   homepage "https://github.com/johnreitano/simplestack"
   url "https://github.com/johnreitano/simplestack/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "ebbe37762a186749b4143148b0068f45f15895a8543604c440b782bbed04db25"
+  sha256 "18df79c07d35387e5c48dbc7f70bcf70a4a466dedeee7e195cc143b2b61c6324"
   license ""
 
   # depends_on "cmake" => :build
