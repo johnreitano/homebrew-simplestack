@@ -4,9 +4,11 @@
 class Simplestack < Formula
   desc "A command-line tool to generate an application following the SimpleStack pattern"
   homepage "https://github.com/johnreitano/simplestack"
-  url "https://github.com/johnreitano/simplestack/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "18df79c07d35387e5c48dbc7f70bcf70a4a466dedeee7e195cc143b2b61c6324"
+  url "https://github.com/johnreitano/simplestack/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "401956a3d301b0d95e41f3c5c6e6ed8f33ffc320ada2c2444117220381775b8a"
   license ""
+  depends_on "gh"
+  depends_on "heroku"
 
   # depends_on "cmake" => :build
 
@@ -16,8 +18,7 @@ class Simplestack < Formula
     # # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
     # system "./configure", *std_configure_args, "--disable-silent-rules"
     # # system "cmake", ".", *std_cmake_args
-    bin.install "simplestack"
-    prefix.install  Dir["*"] - ["simplestack", "bundle", "foo", "notes.md", "tmp"]
+    prefix.install  Dir["*"] - ["bundle", "sample*", "notes.md", "tmp"]
   end
 
   # test do
