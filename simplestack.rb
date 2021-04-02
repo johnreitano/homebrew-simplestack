@@ -4,8 +4,8 @@
 class Simplestack < Formula
   desc "A command-line tool to generate an application following the SimpleStack pattern"
   homepage "https://github.com/johnreitano/simplestack"
-  url "https://github.com/johnreitano/simplestack/archive/refs/tags/v0.1.4.tar.gz"
-  sha256 "1d033d29f5eace505a67bd1757ae73a7b2a63df16321c3c653ca30c65b2410fc"
+  url "https://github.com/johnreitano/simplestack/archive/refs/tags/v0.1.5.tar.gz"
+  sha256 "a28fa3c4540793cea40d612e271de95becc8bf4492cb774f269040a09e59248f"
   license ""
   depends_on "gh"
   depends_on "heroku"
